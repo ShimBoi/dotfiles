@@ -1,0 +1,22 @@
+theme = Rose Pine 
+
+font-size = 15
+
+background-opacity = 0.8
+background-blur-radius = 20
+
+macos-titlebar-style = tabs
+
+font-feature = -liga
+font-feature = -calt
+font-feature = -dlig
+
+auto-update = check
+
+# Left Option sends Alt (for terminal-app Alt+key bindings like nvim's
+# window resize below); right Option stays free for special characters
+# (é, ü, etc.)
+macos-option-as-alt = left
+
+# Quake-style drop-down terminal, toggle from anywhere (even other apps)
+keybind = global:cmd+shift+grave_accent=toggle_quick_terminal
